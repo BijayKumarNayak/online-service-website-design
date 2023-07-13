@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none ;
+}
+h1{
+    font-size:3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    letter-spacing: 1;
+
+
+}
+.common-text{
+    font-size: 13px;
+}
+.nav-item.nav-link :hover{
+    color: aqua;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.navbar-toggler-icon{
+    border-color: white;
+}
+.hero-section{
+    position: relative;
+  
+}
+
+
+.hero-section.container{
+    display: grid;
+    align-content: center;
+   min-height: 60vh;
+   max-height: 100%;
+    
+}
+.custom-shape-divider-bottom-1688961884 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1688961884 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1688961884 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.heading{
+    text-align:center ;
+    margin-bottom: 2rem;
+}
+i{
+    padding: .8rem;
+    border-radius: 50%;
+    color: white;
+}
+
+.card{
+    margin-bottom: 15px;
+}
+
+.service-card:hover{
+    scale: 1.1;
+   transition: 900ms;
+    box-shadow: #ddd;
+}
+
+
+
+.contactus-section{
+    position: relative;
+}
+
+
+
+.custom-shape-divider-bottom-1689082101 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+
+
+.custom-shape-divider-top-1689082419 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 87px;
+}
+
+.custom-shape-divider-top-1689082419 .shape-fill {
+    fill: #FFFFFF;
+}
+.form-box{
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and  (max-width:991px) {
+    h1{
+        font-size: 2rem;
+    }
+    .card{
+        width: 100%;
+    }
+}
+@media only screen and  (min-width:992px) {
+   
+    .card{
+        width: 16rem;
+    }
+}
